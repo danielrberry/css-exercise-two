@@ -1,32 +1,12 @@
 body {
-  background-color: #ffffff;
-  color: #0000FF;
-}
-
-body {
+  background-color: #fff;
+  color: #000;
   font-family: sans-serif;
-  color: black;
-}
-
-figcaption {
-  font-size: 14px
-}
-
-h1 {
-  font-size: 48px;
-  color: black;
-  font-family: sans-serif;
-}
-
-p {
-  line-height: 1.5em;
-  font-size: 100%;
-  font-family: sans-serif;
-  color: black;
+  font-size: 1.2em;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #696969;
   float: left;
   position: fixed;
   width: 100%;
@@ -73,19 +53,40 @@ article {
   width: 50%;
 }
 
-a {
+.container .author{
+  font-weight: bold;
+  padding-top: .50em;
+  padding-bottom: 1em;
+}
+
+.container h1{
+  font-size: 3em;
+  font-weight: bold;
+  padding: .50em 0 .50em 0;
+}
+.container h3{
+  font-size: 1.7em;
+  line-height: normal;
+  padding-bottom: .50em;
+}
+
+figcaption {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.story-text {
+  font-family: serif;
+  line-height: 1.7em;
+  padding-bottom: .75em;
+}
+
+.right a{
+  color: #fff;
   text-decoration: none;
 }
 
-a:link {
-  color:#0070BB;
-}
-a:visited {
-  color:#0070BA;
-}
 a:hover {
-  color:#0070BC;
+  color:#778899;
 }
-a:active {
-  color:#0070BD;
-}
+
